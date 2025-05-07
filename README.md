@@ -1,1 +1,127 @@
-# HappyMood
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Mood</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #5a189a;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #7b2cbf;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #9d4edd;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .service-card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    footer {
+      background-color: #240046;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Mood</h1>
+    <p>Organizamos momentos inolvidables</p>
+  </header>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#sobre-nosotros">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section class="hero">
+    <h1>Haz de tu evento algo especial</h1>
+    <p>Bodas, cumpleaños, graduaciones y mucho más</p>
+  </section>
+  <section class="section" id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="service-card">
+        <i class="fas fa-heart fa-2x"></i>
+        <h3>Bodas</h3>
+        <p>Coordinamos cada detalle para tu día especial.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-birthday-cake fa-2x"></i>
+        <h3>Fiestas infantiles</h3>
+        <p>Celebraciones personalizadas para todas las edades.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-graduation-cap fa-2x"></i>
+        <h3>Fiestas privadas</h3>
+        <p>Eventos memorables para cerrar una etapa importante.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-users fa-2x"></i>
+        <h3>Corporativos</h3>
+        <p>Organizamos eventos empresariales profesionales.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="sobre-nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>En Eventos Únicos contamos con un equipo profesional con más de 10 años de experiencia en la organización de eventos de todo tipo. Nuestro compromiso es convertir tus ideas en realidades memorables.</p>
+  </section>
+  <section class="section" id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes una idea para un evento? ¡Hablemos!</p>
+    <p>Email: MoodHappy@gmail.com</p>
+    <p>Teléfono: +34 600 123 456</p>
+    <p>Redes sociales: @HappyMood </p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Happy Mood. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
